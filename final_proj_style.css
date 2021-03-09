@@ -1,0 +1,198 @@
+body {
+  width: 100%;
+  text-align: center;
+  background-color: #C5C5BE;
+  font-size: 18px;
+  font-family: "Catamaran",sans-serif;
+  font-weight: 400;
+  margin-top: 50px;
+}
+h1 {
+  font-size: 85px;
+  font-family:"Hammersmith One", serif;
+  font-weight: 400;
+  color: #45194D
+}
+h2 {
+  font-size: 28px;
+  color: #522A00;
+}
+.h2right {
+  padding-top: 150px;
+  font-size: 28px;
+  color: #522A00;
+  text-align: right;
+}
+.h2left {
+  padding-top: 150px;
+  font-size: 28px;
+  color: #522A00;
+  text-align: left;
+}
+.pictextblock p {
+  font-size: 18px;
+  font-family: "architects daughter", serif;
+  color: #522A00;
+  width: calc(80% - 20px);
+}
+.texttoleft{
+  text-align: left;
+}
+.texttoright {
+  text-align: right;
+}
+p {
+  font-size: 18px;
+  font-family: "Catamaran", serif;
+  color: #522A00;
+}
+nav a {
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #C5C5BE;
+  background-color: #086375;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  display: inline-block;
+}
+.anna {
+  width: 20%;
+  margin-right: 20px;
+  border: solid #086375;
+  border-width: thick;
+  height: auto;
+}
+.pictextblock {
+  display: flex;
+  justify-content: center;
+  max-width: 800px;
+  width: 80%;
+  box-sizing: border-box;
+  margin: auto;
+  align-items: center;
+  gap: 30px;
+}
+.pictextblock img {
+  width: 80%;
+  height: auto;
+  min-width: 300px;
+}
+
+.woodpic {
+  border-color: #086375;
+  width: 25%;
+  float: right;
+  margin-right: 150px;
+  margin-left: 20px;
+  border: solid #086375;
+  border-width: thick;
+}
+ul {
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.menu-item {
+  border: 3px solid white;
+  display: flex;
+  background-color: #086375;
+  width:20%
+}
+.photoleft{
+  margin-right: 20px;
+  width: 60%;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  border: solid #086375;
+  border-width: thick;
+}
+.photoright{
+  margin-left: 20px;
+  width: 60%;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  border: solid #086375;
+  border-width: thick;
+}
+.dumping {
+  transform: rotate(140deg);
+    width: 500px;
+  display: flex;
+  margin-left: 150px;
+}
+.sanderblock {
+  width: 400px;
+  text-align: center;
+  transform: rotate(-20deg);
+  margin-left: 500px;
+}
+.fileblock {
+  width: 400px;
+  text-align: center;
+  transform: rotate(20deg);
+  margin-left: 400px;
+}
+.fileblock img {
+  width: 250px;
+}
+.pocketknifeblock {
+  width: 400px;
+  text-align: center;
+  transform: rotate(-40deg)
+  margin: auto;
+}
+.copingsawblock {
+  width: 400px;
+  text-align: center;
+  transform: rotate(40deg);
+  margin: auto;
+}
+hr {
+  height: 5px;
+  background-color: #45194D;
+  color: #45194D
+}
+@media (max-width: 675px) {
+.menu {
+  flex-direction: column;
+}
+.menu-item {
+  width: 100%;
+}
+.pictextblock {
+  flex-direction: column;
+}
+.sanderblock {
+  margin: 10px 10px;
+  width: 25%;
+  transform:rotate(0deg);
+}
+.fileblock {
+  margin: auto;
+  width: 25%;
+  transform:rotate(0deg);
+}
+.pocketknifeblock {
+  margin: 10px 10px;
+  width: 25%;
+  transform:rotate(0deg);
+}
+.copingsawblock{
+  margin: 0;
+  width: 45%;
+  transform:rotate(0deg);
+}
+.dumping {
+  margin: auto;
+  width: 45%;
+  transform: rotate(150deg)
+}
+}
+}
