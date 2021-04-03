@@ -154,6 +154,9 @@ ul {
   transform: rotate(40deg);
   margin: auto;
 }
+.steps {
+  width:30%;
+}
 hr {
   height: 5px;
   background-color: #45194D;
