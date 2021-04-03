@@ -156,6 +156,8 @@ ul {
 }
 .steps {
   width:30%;
+  border: solid #086375;
+  border-width: thick;
 }
 hr {
   height: 5px;
