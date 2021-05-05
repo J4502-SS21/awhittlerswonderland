@@ -159,6 +159,10 @@ ul {
   border: solid #086375;
   border-width: thick;
 }
+.icon {
+  width: 15%;
+}
+}
 hr {
   height: 5px;
   background-color: #45194D;
@@ -171,11 +175,14 @@ hr {
 .menu-item {
   width: 100%;
 }
+h1 {
+  font-size: 60px;
+}
 .pictextblock {
   flex-direction: column;
 }
 .sanderblock {
-  margin: 10px 10px;
+  margin-left: 10px;
   width: 25%;
   transform:rotate(0deg);
 }
@@ -200,4 +207,11 @@ hr {
   transform: rotate(150deg)
 }
 }
+}
+.intro {
+  width: 25%;
+}
+@media (max-width: 675px) {
+.dumping {
+  margin:none;
 }
