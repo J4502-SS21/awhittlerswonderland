@@ -140,10 +140,12 @@ ul {
   margin-left: 400px;
 }
 .fileblock img {
-  width: 450px;
+  width: 100%;
+  max-width: 400px;
 }
 .pocketknifeblock {
-  width: 400px;
+  width: 100%;
+  max-width: 350px;
   text-align: center;
   transform: rotate(-40deg)
   margin: auto;
@@ -188,7 +190,7 @@ h1 {
 }
 .fileblock {
   margin: auto;
-  width: 15%;
+  width: 100%;
   transform:rotate(0deg);
 }
 .pocketknifeblock {
