@@ -170,7 +170,7 @@ hr {
   background-color: #45194D;
   color: #45194D
 }
-@media (max-width: 675px) {
+@media (max-width: 1000px) {
 .menu {
   flex-direction: column;
 }
@@ -222,7 +222,7 @@ h1 {
   display: none;
 
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 675px) {
   #menu_trigger {
     display:block;
     position: absolute;
