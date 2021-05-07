@@ -29,6 +29,9 @@ h2 {
   color: #522A00;
   text-align: left;
 }
+a:hover {
+  color: #d2a679;
+}
 .pictextblock p {
   font-size: 25px;
   font-family: "architects daughter", serif;
@@ -49,7 +52,7 @@ p {
 nav a {
   font-family: "Hammersmith One", sans-serif;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 35px;
   color: #C5C5BE;
   background-color: #086375;
   text-align: center;
@@ -163,7 +166,6 @@ ul {
 }
 .icon {
   width: 15%;
-}
 }
 hr {
   height: 5px;
